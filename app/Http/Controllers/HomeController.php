@@ -29,4 +29,12 @@ class HomeController extends Controller
         $questions = $user->questions()->paginate(6);
         return view('home')->with('questions', $questions);
     }
+
+    public function admin(Request $req){
+        return view('middleware')->withMessage("Admin");
+    }
+    public function member(Request $req){
+        return view('middleware')->withMessage("Member");
+    }
+
 }

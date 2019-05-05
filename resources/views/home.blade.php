@@ -38,7 +38,7 @@
                                         </div>
                                     </div>
                                 @empty
-                                    NO QUESTION, YOU SHOULD CREATE ONE
+                                    NO QUESTION, YOU CAN ALWAYS CREATE ONE
                                 @endforelse
                             </div>
 

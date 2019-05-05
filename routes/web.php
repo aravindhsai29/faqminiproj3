@@ -33,3 +33,11 @@ Route::delete('/questions/{question_id}/answer/{answer_id}', 'AnswerController@d
 Route::resources([
     'questions' => 'QuestionController',
 ]);
+Route::group(['middleware' => 'App\Http\Middleware\AdminMiddleware'], function()
+{
+    Route::match(['get', 'post'], '/adminPage/', 'HomeController@admin');
+});
+Route::group(['middleware' => 'App\Http\Middleware\MemberMiddleware'], function()
+{
+    Route::match(['get', 'post'], '/memberPage/', 'HomeController@member');
+});
