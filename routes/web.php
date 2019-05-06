@@ -30,6 +30,17 @@ Route::get('/questions/{question_id}/answers/{answer_id}/edit', 'AnswerControlle
 Route::post('/questions/{question_id}/answers/', 'AnswerController@store')->name('answers.store');
 Route::patch('/questions/{question_id}/answer/{answer_id}', 'AnswerController@update')->name('answers.update');
 Route::delete('/questions/{question_id}/answer/{answer_id}', 'AnswerController@destroy')->name('answers.destroy');
+
+
+Route::get('/questions/{question_id}/answers/{answer_id}/note/create', 'NoteController@create')->name('note.create');
+
+Route::post('/questions/{question_id}/answers/{answer}/note/', 'NoteController@store')->name('note.store');
+
+Route::delete('/questions/{question_id}/answers/{answer}/note/{note_id}', 'NoteController@destroy')->name('note.destroy');
+
+
+
+
 Route::resources([
     'questions' => 'QuestionController',
 ]);

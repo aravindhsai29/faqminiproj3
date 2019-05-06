@@ -16,4 +16,8 @@ class Question extends Model
     {
         return $this->hasMany('App\Answer');
     }
+    public function additionalnotes()
+    {
+        return $this->hasMany('App\AdditionalNotes');
+    }
 }
