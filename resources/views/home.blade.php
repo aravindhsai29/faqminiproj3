@@ -56,3 +56,27 @@
 
         </div>
 @endsection
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="panel panel-default">
+                        <div class="panel-heading"> <h1> Authorization </h1> </div> <P></P>
+
+                        <div class="panel-body">
+                            @if (session('status'))
+                                <div class="alert alert-success">
+                                    {{ session('status') }}
+                                </div>
+                            @endif
+
+                            You Can choose your authorization below <strong>{{ strtoupper(Auth::user()->type) }}</strong>
+                            <br>
+
+                            THIS IS  THE Admin PAGE: <a href="{{ url('/') }}/adminPage">{{ url('/') }}/adminPage</a>
+                                <br>THIS IS  THE Member PAGE: <a href="{{ url('/') }}/memberPage">{{ url('/') }}/memberPage</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
