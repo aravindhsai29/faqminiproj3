@@ -73,8 +73,8 @@ class User extends Authenticatable
     {
         return $this->hasMany('App\Answer');
     }
-    public function additionalnotes()
+    public function note()
     {
-        return $this->hasMany('App\AdditionalNotes');
+        return $this->hasMany('App\Note');
     }
 }
