@@ -15,8 +15,8 @@ class Answer extends Model
     {
         return $this->belongsTo('App\Question');
     }
-    public function additionalnotes()
+    public function note()
     {
-        return $this->hasMany('App\AdditionalNotes');
+        return $this->hasMany('App\Note');
     }
 }

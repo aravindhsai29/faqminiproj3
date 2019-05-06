@@ -32,11 +32,11 @@ Route::patch('/questions/{question_id}/answer/{answer_id}', 'AnswerController@up
 Route::delete('/questions/{question_id}/answer/{answer_id}', 'AnswerController@destroy')->name('answers.destroy');
 
 
-Route::get('/questions/{question_id}/answers/{answer_id}/note/create', 'NoteController@create')->name('note.create');
+Route::get('/questions/{question_id}/answers/{answer_id}/note/create', 'NoteController@create')->name('notes.create');
 
-Route::post('/questions/{question_id}/answers/{answer}/note/', 'NoteController@store')->name('note.store');
+Route::post('/questions/{question_id}/answers/{answer}/note/', 'NoteController@store')->name('notes.store');
 
-Route::delete('/questions/{question_id}/answers/{answer}/note/{note_id}', 'NoteController@destroy')->name('note.destroy');
+Route::delete('/questions/{question_id}/answers/{answer}/note/{note_id}', 'NoteController@destroy')->name('notes.destroy');
 
 
 

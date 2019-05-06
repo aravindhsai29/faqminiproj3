@@ -105,7 +105,7 @@ class NoteController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($question, $additionalnotes)
+    public function destroy($question, $answer, $note)
     {
         $note = Note::find($note);
         $note->delete();

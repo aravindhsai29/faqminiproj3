@@ -34,6 +34,7 @@
                 {{--
                                 Extra notes displayed here
                 --}}
+
                 @foreach($note as $notes)
                     <div class="card">
                         <div class="card-header">{{\App\User::find($notes->user_id)->email}}</div>
