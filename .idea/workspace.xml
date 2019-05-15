@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5850c7ac-7e2d-4fae-84a2-415ce820b8f2" name="Default Changelist" comment=" authirzation access controls">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-    </list>
+    <list default="true" id="5850c7ac-7e2d-4fae-84a2-415ce820b8f2" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -638,7 +634,7 @@
       <workItem from="1557169840554" duration="3079000" />
       <workItem from="1557183107242" duration="57000" />
       <workItem from="1557438230043" duration="159000" />
-      <workItem from="1557935657511" duration="2206000" />
+      <workItem from="1557935657511" duration="2590000" />
     </task>
     <task id="LOCAL-00001" summary="initial laravel setup">
       <created>1555610404030</created>
@@ -731,11 +727,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557174040435</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="improper controls">
+      <created>1557937915148</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1557937915149</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57830000" />
+    <option name="totallyTimeSpent" value="58214000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1373" height="873" extended-state="6" />
@@ -777,7 +780,8 @@
     <MESSAGE value="added Note" />
     <MESSAGE value="authorization" />
     <MESSAGE value=" authirzation access controls" />
-    <option name="LAST_COMMIT_MESSAGE" value=" authirzation access controls" />
+    <MESSAGE value="improper controls" />
+    <option name="LAST_COMMIT_MESSAGE" value="improper controls" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/database/seeds/QuestionsTableSeeder.php">
