@@ -77,15 +77,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-135">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-35">
@@ -114,11 +105,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_18_220217_create_questions_table.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Note.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -190,7 +190,6 @@
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_05_06_140949_create_notes_table.php" />
         <option value="$PROJECT_DIR$/resources/views/noteForm.blade.php" />
-        <option value="$PROJECT_DIR$/app/Note.php" />
         <option value="$PROJECT_DIR$/app/Answer.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/NoteController.php" />
@@ -205,6 +204,7 @@
         <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
         <option value="$PROJECT_DIR$/database/factories/UserFactory.php" />
+        <option value="$PROJECT_DIR$/app/Note.php" />
       </list>
     </option>
   </component>
@@ -634,7 +634,7 @@
       <workItem from="1557169840554" duration="3079000" />
       <workItem from="1557183107242" duration="57000" />
       <workItem from="1557438230043" duration="159000" />
-      <workItem from="1557935657511" duration="2590000" />
+      <workItem from="1557935657511" duration="2892000" />
     </task>
     <task id="LOCAL-00001" summary="initial laravel setup">
       <created>1555610404030</created>
@@ -734,11 +734,25 @@
       <option name="project" value="LOCAL" />
       <updated>1557937915149</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="improper controls">
+      <created>1557938453331</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1557938453331</updated>
+    </task>
+    <task id="LOCAL-00016" summary="changed certain aspects">
+      <created>1557938475366</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1557938475366</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58214000" />
+    <option name="totallyTimeSpent" value="58516000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1373" height="873" extended-state="6" />
@@ -781,7 +795,8 @@
     <MESSAGE value="authorization" />
     <MESSAGE value=" authirzation access controls" />
     <MESSAGE value="improper controls" />
-    <option name="LAST_COMMIT_MESSAGE" value="improper controls" />
+    <MESSAGE value="changed certain aspects" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed certain aspects" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/database/seeds/QuestionsTableSeeder.php">
@@ -856,13 +871,6 @@
           <folding>
             <element signature="e#39#54#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Note.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1135,6 +1143,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Note.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
         </state>
       </provider>
     </entry>
